@@ -19,7 +19,7 @@ MONGODB_URI= os.environ.get("MONGODB_URI")
 DB_NAME = os.environ.get("DB_NAME")
 
 client = MongoClient ("mongodb+srv://noviansyahh2006:Jakmania1928@cluster0.z6ucths.mongodb.net/?retryWrites=true&w=majority")
-db =  client.dbsparta_plus_week13
+db =  client.dbsparta_plus_week14
  
 app = Flask(__name__)
 

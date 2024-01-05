@@ -12,7 +12,7 @@ import requests
 password = 'Jakmania1928'
 cxn_str = f'mongodb+srv://noviansyahh2006:{password}@cluster0.z6ucths.mongodb.net/'
 client = MongoClient(cxn_str)
-db = client.dbsparta_plus_week13
+db = client.dbsparta_plus_week14
 
 
 chrome_options = Options()
